@@ -1,0 +1,1 @@
+The bug was that the numbers were being treated as strings so the result would concatenate them rather than adding them. I fixed this by adding a '+' in front of document.getElementById(var).value in order to force the script to interpret it as an integer. 
